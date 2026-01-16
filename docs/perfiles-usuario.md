@@ -1,3 +1,9 @@
+---
+layout: default
+title: Perfiles de Usuario
+nav_order: 3
+---
+
 # Perfiles de Usuario
 
 [← Volver al índice](index.md)
