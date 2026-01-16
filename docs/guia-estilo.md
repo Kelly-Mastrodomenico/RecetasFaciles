@@ -1,3 +1,9 @@
+---
+layout: default
+title: Guía de Estilo
+nav_order: 5
+---
+
 # Guía de Estilo
 
 [← Volver al índice](index.md)
