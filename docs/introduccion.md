@@ -1,3 +1,9 @@
+---
+layout: default
+title: Introducción
+nav_order: 2
+---
+
 # Introducción
 
 [← Volver al índice](index.md)
