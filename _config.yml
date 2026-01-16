@@ -1,19 +1,47 @@
-title: RecetasFáciles - Documentación Técnica
-description: Portal de recetas de cocina y repostería - Proyecto Intermodular 2º DAW
-theme: jekyll-theme-cayman
-baseurl: ""
+# Configuración del sitio
+title: RecetasFáciles
+description: Documentación del Proyecto Intermodular - Portal de recetas de cocina y repostería
+remote_theme: just-the-docs/just-the-docs
 
-# Información del proyecto
-project:
-  name: RecetasFáciles
-  version: 1.0.0
-  curso: 2º DAW 2025-2026
-  tutor: Carlos Fernández
+# URL del sitio (ajustar con tu usuario de GitHub)
+url: https://Kelly-Mastrodomenico.github.io
+baseurl: /RecetasFaciles
 
-# Información del autor
-author:
-  name: Kelly Rodríguez Mastrodomenico
-  github: tu-usuario-github
+# Configuración del tema
+color_scheme: light
+
+# Logo (opcional)
+# logo: "/assets/img/logo.png"
+
+# Búsqueda
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Navegación auxiliar (opcional)
+aux_links:
+  "Ver en GitHub":
+    - "//github.com/Kelly-Mastrodomenico/RecetasFaciles"
+
+# Botón "Edit this page" (opcional)
+gh_edit_link: true
+gh_edit_link_text: "Editar esta página en GitHub"
+gh_edit_repository: "https://github.com/Kelly-Mastrodomenico/RecetasFaciles"
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
+
+# Footer
+footer_content: "Kelly Rodríguez Mastrodomenico - 2º DAW 2025-2026 | Tutor: Carlos Fernández"
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Volver arriba"
 
 # Configuración de Markdown
 markdown: kramdown
@@ -23,13 +51,7 @@ kramdown:
 
 # Plugins
 plugins:
-  - jekyll-relative-links
-  - jekyll-optional-front-matter
-  - jekyll-readme-index
-
-relative_links:
-  enabled: true
-  collections: true
+  - jekyll-seo-tag
 
 # Excluir archivos
 exclude:
@@ -38,26 +60,3 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
-
-# Configuración de navegación
-navigation:
-  - title: Inicio
-    url: /docs/
-  - title: Introducción
-    url: /docs/introduccion
-  - title: Perfiles de Usuario
-    url: /docs/perfiles-usuario
-  - title: Arquitectura
-    url: /docs/arquitectura
-  - title: Guía de Estilo
-    url: /docs/guia-estilo
-  - title: Tecnologías
-    url: /docs/tecnologias
-  - title: Instalación
-    url: /docs/instalacion
-  - title: Despliegue
-    url: /docs/despliegue
-  - title: Conclusiones
-    url: /docs/conclusiones
-  - title: Referencias
-    url: /docs/referencias
