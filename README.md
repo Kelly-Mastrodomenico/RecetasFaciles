@@ -43,7 +43,7 @@ Tutor: Carlos Fernández
 
 La documentación completa del proyecto está disponible en GitHub Pages:
 
-**[Ver documentación técnica](https://tu-usuario.github.io/RecetasFaciles/)**
+**[Ver documentación técnica](https://Kelly-Mastrodomenico.github.io/RecetasFaciles/)**
 
 ## 🚀 Prototipo
 
