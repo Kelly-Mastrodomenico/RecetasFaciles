@@ -1,3 +1,9 @@
+---
+layout: default
+title: Conclusiones
+nav_order: 9
+---
+
 # Conclusiones
 
 [← Volver al índice](index.md)
