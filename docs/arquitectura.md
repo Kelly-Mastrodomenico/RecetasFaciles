@@ -1,3 +1,9 @@
+---
+layout: default
+title: Arquitectura
+nav_order: 4
+---
+
 # Arquitectura del Proyecto
 
 [← Volver al índice](index.md)
@@ -185,6 +191,8 @@ Categorías ▼
 - **Móvil:** Se despliega al tocar, permanece visible
 - Animación suave de aparición (transition: 0.3s)
 - Cada opción con icono representativo
+
+![Menú Categorías](img/menu-categorias.png)
 
 ---
 
