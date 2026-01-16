@@ -1,3 +1,9 @@
+---
+layout: default
+title: Despliegue
+nav_order: 8
+---
+
 # Despliegue en Producción
 
 [← Volver al índice](index.md)
@@ -60,12 +66,12 @@ git push origin main
 3. **Esperar el despliegue:**
 - GitHub comenzará a construir tu sitio
 - En 1-2 minutos estará disponible
-- URL: `https://tu-usuario.github.io/RecetasFaciles/`
+- URL: `https://Kelly-Mastrodomenico.github.io/RecetasFaciles/`
 
 4. **Verificar:**
 ```bash
 # Visitar la URL generada
-open https://tu-usuario.github.io/RecetasFaciles/
+open https://Kelly-Mastrodomenico.github.io/RecetasFaciles/
 ```
 
 #### Configuración de Dominio Personalizado (Opcional)
@@ -76,7 +82,7 @@ open https://tu-usuario.github.io/RecetasFaciles/
 ```
 Type: CNAME
 Host: www
-Value: tu-usuario.github.io
+Value: Kelly-Mastrodomenico.github.io
 ```
 
 3. **En GitHub Pages:**
@@ -323,7 +329,7 @@ apt install docker-compose -y
 
 4. **Clonar proyecto:**
 ```bash
-git clone https://github.com/tu-usuario/RecetasFaciles.git
+git clone https://github.com/Kelly-Mastrodomenico/RecetasFaciles.git
 cd RecetasFaciles
 ```
 
