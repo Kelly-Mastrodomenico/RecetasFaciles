@@ -53,10 +53,13 @@ kramdown:
 plugins:
   - jekyll-seo-tag
 
-# Excluir archivos
+# Excluir archivos (Quitamos README.md de aquí)
 exclude:
-  - README.md
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
+
+# Añade esto para que el tema funcione correctamente como página de inicio
+layout: default
+nav_order: 1
