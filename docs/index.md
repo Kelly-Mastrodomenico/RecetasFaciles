@@ -1,3 +1,9 @@
+---
+layout: default
+title: Documentación del Proyecto Intermodular
+nav_order: 1
+---
+
 # RecetasFáciles - Documentación Técnica
 
 Bienvenido a la documentación oficial del proyecto **RecetasFáciles**, un portal web de recetas de cocina y repostería desarrollado como proyecto intermodular del CFGS Desarrollo de Aplicaciones Web.
