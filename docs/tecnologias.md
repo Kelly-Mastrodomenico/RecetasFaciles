@@ -1,3 +1,9 @@
+---
+layout: default
+title: Tecnologías
+nav_order: 6
+---
+
 # Tecnologías Empleadas
 
 [← Volver al índice](index.md)
