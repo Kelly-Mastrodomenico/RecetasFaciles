@@ -1,3 +1,10 @@
+---
+layout: home
+title: Inicio
+nav_order: 1
+permalink: /
+---
+
 # RecetasFáciles 🍰
 
 Portal web de recetas de cocina y repostería
@@ -35,15 +42,14 @@ Portal web de recetas de cocina y repostería
 
 ## 👥 Autor
 
-**Kelly Rodríguez Mastrodomenico**  
-2º DAW - Curso 2025-2026  
+**Kelly Rodríguez Mastrodomenico** 2º DAW - Curso 2025-2026  
 Tutor: Carlos Fernández
 
 ## 📚 Documentación
 
-La documentación completa del proyecto está disponible en GitHub Pages:
+La documentación completa del proyecto está disponible en:
 
-**[Ver documentación técnica](https://Kelly-Mastrodomenico.github.io/RecetasFaciles/)**
+**[Explorar Documentación Técnica](./docs/introduccion.md)**
 
 ## 🚀 Prototipo
 
@@ -51,30 +57,3 @@ Accede al prototipo interactivo:
 [Ver prototipo en Visily](https://app.visily.ai/projects/cda155c8-9a9e-410a-9f42-7c04de422696/boards/2320377)
 
 ## 📦 Estructura del proyecto
-
-```
-proyecto-intermodular-doc/
-├── README.md
-├── _config.yml
-└── docs/
-    ├── index.md
-    ├── introduccion.md
-    ├── perfiles-usuario.md
-    ├── arquitectura.md
-    ├── guia-estilo.md
-    ├── tecnologias.md
-    ├── instalacion.md
-    ├── despliegue.md
-    ├── conclusiones.md
-    ├── referencias.md
-    └── img/
-        └── (capturas de pantalla)
-```
-
-## 📄 Licencia
-
-Este proyecto es de código abierto y está disponible bajo la licencia MIT.
-
----
-
-**Fecha de entrega:** Noviembre 09, 2025
