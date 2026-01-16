@@ -1,0 +1,63 @@
+title: RecetasFáciles - Documentación Técnica
+description: Portal de recetas de cocina y repostería - Proyecto Intermodular 2º DAW
+theme: jekyll-theme-cayman
+baseurl: ""
+
+# Información del proyecto
+project:
+  name: RecetasFáciles
+  version: 1.0.0
+  curso: 2º DAW 2025-2026
+  tutor: Carlos Fernández
+
+# Información del autor
+author:
+  name: Kelly Rodríguez Mastrodomenico
+  github: tu-usuario-github
+
+# Configuración de Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+
+relative_links:
+  enabled: true
+  collections: true
+
+# Excluir archivos
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Configuración de navegación
+navigation:
+  - title: Inicio
+    url: /docs/
+  - title: Introducción
+    url: /docs/introduccion
+  - title: Perfiles de Usuario
+    url: /docs/perfiles-usuario
+  - title: Arquitectura
+    url: /docs/arquitectura
+  - title: Guía de Estilo
+    url: /docs/guia-estilo
+  - title: Tecnologías
+    url: /docs/tecnologias
+  - title: Instalación
+    url: /docs/instalacion
+  - title: Despliegue
+    url: /docs/despliegue
+  - title: Conclusiones
+    url: /docs/conclusiones
+  - title: Referencias
+    url: /docs/referencias
