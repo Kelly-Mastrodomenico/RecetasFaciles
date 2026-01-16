@@ -1,3 +1,9 @@
+---
+layout: default
+title: Referencias
+nav_order: 10
+---
+
 # Referencias Bibliográficas
 
 [← Volver al índice](index.md)
