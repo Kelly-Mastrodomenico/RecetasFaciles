@@ -1,3 +1,9 @@
+---
+layout: default
+title: Instalación
+nav_order: 7
+---
+
 # Instalación y Configuración
 
 [← Volver al índice](index.md)
